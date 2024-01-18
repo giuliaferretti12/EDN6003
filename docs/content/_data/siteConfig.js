@@ -123,7 +123,7 @@ module.exports = {
     // edit content/_data/utils/og-image.njk
     enableImageGeneration: false,
     // Background color for auto-generated OpenGraph images
-    ogImageBackgroundColor: '#B24D00',
+    ogImageBackgroundColor: '#1773cf',
     // Text color for for auto-generated OpenGraph images
     ogImageTextColor: '#fff',
   },
@@ -157,10 +157,10 @@ module.exports = {
     language: 'fr',
     // Default theme color for PWA application. Affects how the OS displays
     // the site
-    themeColor: '#B24D00',
+    themeColor: '#1773cf',
     // Placeholder background color for the application page to display
     // before its stylesheet is loaded
-    backgroundColor: '#B24D00',
+    backgroundColor: '#1773cf',
   },
   // ---------------------------------------------------------------------------
   // Settings for post share buttons
@@ -192,9 +192,9 @@ module.exports = {
     // Example: 1 October 1970
     fullReadable: 'dd LL yyyy',
   },
-  // ---------------------------------------------------------------------------
+  // --------------------------------------------------ors-------------------------
   // Settings for RSS feeds (Atom)
-  // ---------------------------------------------------------------------------
+  //---------------------------------------------------------------------------
   feed: {
     stylesheet: {
       // URL of the XSLT stylesheet used when RSS feed XML file is displayed
@@ -203,7 +203,7 @@ module.exports = {
       // Color of the links on the site. Since XSLT stylesheet is a separate
       // entity from the rest of the site styling, it has to be
       // specified manually
-      baseColor: '#B24D00',
+      baseColor: '#1773cf',
     },
     // Settings for RSS feed displaying post excerpts
     excerpts: {

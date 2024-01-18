@@ -1,7 +1,0 @@
-{
-  "language": "fr",
-  "layout": "page",
-  "tags": ["page"],
-  "canonical": "{{ title | slugify }}",
-  "published": true
-}

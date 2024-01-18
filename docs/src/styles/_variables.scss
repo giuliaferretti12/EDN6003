@@ -4,11 +4,11 @@ $baseSize: 16px;
 
 // Base colors
 
-$baseHue: 30;
+$baseHue: 340;
 
-$baseColor: hsl($baseHue, 70%, 40%);
-$white: hsl($baseHue, 10%, 10%);
-$black: hsl($baseHue, 4%, 9%);
+$baseColor: hsl($baseHue, 80%, 50%);
+$white: hsl($baseHue, 80%, 98%);
+$black: hsl($baseHue, 5%, 30%);
 
 // Fonts
 
@@ -59,21 +59,21 @@ $longTransitionTime: 0.2s;
 
 $lightBackgroundColor: $white;
 $lightTextColor: $black;
-$lightLinkColor: darken($baseColor, 4%);
-$lightLinkHoverColor: lighten($lightLinkColor, 14%);
+$lightLinkColor: darken($baseColor, 5%);
+$lightLinkHoverColor: lighten($lightLinkColor, 15%);
 $lightPostMetaColor: $lightTextColor;
-$lightTopMetaColor: lighten($black, 30%);
+$lightTopMetaColor: lighten($black, 40%);
 $lightBottomMetaColor: $lightTopMetaColor;
 $lightNoticeBorderColor: $baseColor;
-$lightNoticeBackgroundColor: lighten($baseColor, 35%);
-$lightCodeBackgroundColor: lighten($baseColor, 35%);
-$lightCodeSelectionBackgroundColor: lighten($baseColor, 23%);
-$lightMarkBackgroundColor: lighten($baseColor, 35%);
+$lightNoticeBackgroundColor: lighten($baseColor, 45%);
+$lightCodeBackgroundColor: lighten($baseColor, 45%);
+$lightCodeSelectionBackgroundColor: lighten($baseColor, 33%);
+$lightMarkBackgroundColor: lighten($baseColor, 55%);
 $lightMarkColor: $black;
 $lightThemeSwitcherColor: $lightLinkColor;
 $lightMobileMenuBackgroundColor: $lightBackgroundColor;
-$lightMobileMenuSeparatorColor: darken($white, 7%);
-$lightScrollUpArrowBackgroundColor: lighten($lightLinkColor, 9%);
+$lightMobileMenuSeparatorColor: darken($white, 8%);
+$lightScrollUpArrowBackgroundColor: lighten($lightLinkColor, 10%);
 $lightScrollUpArrowHoverBackgroundColor: darken(
   $lightScrollUpArrowBackgroundColor,
   7%
@@ -120,7 +120,7 @@ html:not(.dark) {
 // Dark mode colors
 
 $darkBackgroundColor: $black;
-$darkTextColor: hsl($baseHue, 4%, 70%);
+$darkTextColor: hsl($baseHue, 5%, 70%);
 $darkLinkColor: hsl($baseHue, 60%, 75%);
 $darkLinkHoverColor: darken($darkLinkColor, 10%);
 $darkPostMetaColor: $darkTextColor;
